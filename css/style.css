@@ -5,9 +5,28 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* our population */
+.our-card{
+  width: 156px;
+  height: 44px;
+  background-color: #F72D57;
+  border-radius: 5px;
+}
+
+.our-cards{
+  width: 156px;
+  height: 44px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px;
+}
+.total-card{
+  display: flex;
+  gap: 20px;
+  
+  
+}
 
 /* about us page */
-
   .about_us {
     width: 80%;
     margin: auto;
@@ -114,5 +133,11 @@
 
       .about_col img {
         width: 100%;
+      }
+
+      /* card */
+      .total-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
       }
 }
