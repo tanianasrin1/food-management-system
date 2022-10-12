@@ -1,5 +1,7 @@
-/* about us page */
+/* banner */
 
+
+/* about us page */
 
   .about_us {
     width: 80%;
@@ -48,8 +50,25 @@
 .icons .fa-brands {
    color: #FFFFFF;
    font-size: 17px;
+   margin-top: 16px;
+   padding: 5px;
   }
+.footer-text{
+  color: #FFFFFF;
+}
 
+.footer-col{
+  display: flex;
+  padding: 42px 0px;
+  justify-content: center;
+ 
+}
+
+
+
+
+
+/* media */
 @media screen and  (max-width: 600px){
     .about_us {
         width: 80%;
